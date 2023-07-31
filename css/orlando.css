@@ -1,0 +1,21 @@
+header {   
+    width: 100%;
+    height: 150px;
+    background-color: #5E299A;
+    
+}
+header .container {
+    position: relative;
+}
+header .header-black{
+    height: 40px;
+    background-color: black;
+}
+header #logotipo{
+    position: absolute;
+    top: -20px;
+}
+header #clubes{
+    position: absolute;
+    left: 180px;
+}
