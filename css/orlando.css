@@ -158,10 +158,9 @@ header #logotipo{
     width: 100%;
     height: 728px;
     position: relative;
-    background: url(../img/banner.jpg) no-repeat;
+    background: url(../img/orlando-banner.png) no-repeat;
     background-size: cover;
     top: -110px;
-    background-position: 0px -100px;
     border-bottom: #a2a4a7 1px solid;
 }
 #banner h1{
@@ -277,21 +276,26 @@ header #logotipo{
     max-width: 400px;
 }
 footer row{
-    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
 }
 footer .row p{
-    line-height: 60px;
+    line-height: 55px;
     margin-bottom: 0;
 }
 footer .row-cinza-claro{
     margin-top: 110px;
     height: 200px;
     background-color: #171F26;
+    margin-right: 0;
+    padding: 0;
 }
 footer .row-cinza-escuro{
     height: 60px;
     background-color: #11171D;
     border-top: #242D37 1px solid;
+    margin: 0;
+    padding: 0;
 }
 footer .float-left{ 
     color: #666;
@@ -306,4 +310,87 @@ footer .text-roxo{
     font-size: 16px;
     position: absolute;
     right: 80px;
+}
+footer .logotipo{
+    margin-top: 28px;
+}
+footer .col-popular-post,
+footer .col-links,
+footer .col-get-in-touch{
+    margin-top: 40px;
+}
+footer .row-cols h4{
+    color: #fff;
+    font-family: "OpenSans";
+    font-size: 16px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #242d37;
+    margin-left: 40px;
+}
+footer .row-cols h5{
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+footer .row-cols time{
+    color: #FDE092;
+    font-family: Arial;
+    font-size: 14px;
+}
+footer .row-cols ul{
+    list-style: none;
+}
+footer .row-cols{
+    text-align: left;
+}
+footer .col-links a{
+    color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+}
+footer .col-get-in-touch address,
+footer .col-get-in-touch a{
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+footer .col-get-in-touch address span{
+    display: inline-block;
+}
+footer .col-get-in-touch address i{
+    position: relative;
+    top: -14px;
+}
+footer .col-get-in-touch i{
+    color: #9B9B9B;
+    font-size: 20px;
+    margin: 0 6px;
+}
+footer .col-get-in-touch h4{
+    margin-left: 0;
+}
+footer .col-get-in-touch p{
+    line-height: 20px;
+}
+footer .list-socials{
+    margin-top: 4px;
+}
+footer .list-socials li{
+    display: inline-block;
+}
+footer .list-socials a{
+    display: block;
+    border: #9B9B9B 1px solid;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    text-align: center;
+    margin-right: 4px;
+}
+footer .list-socials i{
+    font-size: 16px;
+    margin: 6px auto;
 }
